@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TsModelGenerator", "TsModelGenerator\TsModelGenerator.csproj", "{940777D9-9C97-45BA-9529-B9D8FE194AFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlServerModelGenerator", "SqlServerModelGenerator\SqlServerModelGenerator.csproj", "{9EE66BAF-8B00-4CD4-B8B6-4725470254AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{940777D9-9C97-45BA-9529-B9D8FE194AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940777D9-9C97-45BA-9529-B9D8FE194AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940777D9-9C97-45BA-9529-B9D8FE194AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940777D9-9C97-45BA-9529-B9D8FE194AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE66BAF-8B00-4CD4-B8B6-4725470254AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE66BAF-8B00-4CD4-B8B6-4725470254AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE66BAF-8B00-4CD4-B8B6-4725470254AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE66BAF-8B00-4CD4-B8B6-4725470254AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE8D5F39-F555-4D17-BA37-B29C2E74D45A}
+	EndGlobalSection
+EndGlobal
