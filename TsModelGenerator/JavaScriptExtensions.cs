@@ -4,7 +4,6 @@
     using System.Collections.Generic;
     using ionix.Utils;
 
-
     internal enum JavascriptType
     {
         @string = 0,
