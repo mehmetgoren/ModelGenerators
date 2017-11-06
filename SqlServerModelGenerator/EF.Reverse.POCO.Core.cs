@@ -21,7 +21,7 @@
 
         bool IncludeViews = true;
         string CollectionType = "List";
-        bool UseCamelCase = true;
+        bool UseCamelCase = false;
         bool IncludeComments = true;
         string SchemaName = null;
         static bool DisableGeographyTypes = false;
