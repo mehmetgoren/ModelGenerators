@@ -22,6 +22,7 @@
             PocoCore.Tables tables = core.LoadTables();
             if (null != tables)
             {
+                tables.Sort((i1, i2) => String.Compare(i1.Name, i2.Name, StringComparison.Ordinal));
                 void WritePocoClassAttributes(PocoCore.Table table)
                 {
                     string tableName = "	[Table(\"" + table.ClassName + "\"";
