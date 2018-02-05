@@ -11,7 +11,6 @@
 
     public class PocoCore
     {
-
        // var code = new CodeGenerationTools(this);
        // string Namespace = code.VsNamespaceSuggestion();
        // var fileManager = EntityFrameworkTemplateFileManager.Create(this);

@@ -1,0 +1,1 @@
+dotnet TsModelGenerator.dll "X:\Projects\Crypttech\WebsiteWatcher\Backend\WebsiteWatcher.Rest\bin\x64\Debug\net471\WebsiteWatcher.Models.dll" "g:\\entities.ts"
