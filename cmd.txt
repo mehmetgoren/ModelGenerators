@@ -1,1 +1,2 @@
-dotnet TsModelGenerator.dll "X:\Projects\Crypttech\WebsiteWatcher\Backend\WebsiteWatcher.Rest\bin\x64\Debug\net471\WebsiteWatcher.Models.dll" "g:\\entities.ts"
+dotnet SqlServerModelGenerator.dll "Data Source=192.168.159.128;Initial Catalog=WebsiteWatcher;User Id=sa;Password=1;" "d:\Entities.cs"
+dotnet TsModelGenerator.dll "X:\Projects\Crypttech\WebsiteWatcher\Backend\WebsiteWatcher.Rest\bin\x64\Debug\net461\WebsiteWatcher.Models.dll" "h:\\entities.ts"

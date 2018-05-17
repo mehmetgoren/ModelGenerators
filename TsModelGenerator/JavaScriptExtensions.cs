@@ -10,7 +10,6 @@
         number = 1,
         Date = 2,
         boolean = 3,
-        Uint8Array = 4,
         any = 5,
     }
 
@@ -48,7 +47,7 @@
                             typeMap.Add(CachedTypes.Guid, JavascriptType.@string);
                             typeMap.Add(CachedTypes.DateTime, JavascriptType.Date);
                             typeMap.Add(typeof(DateTimeOffset), JavascriptType.Date);
-                           // typeMap.Add(CachedTypes.ByteArray, JavascriptType.Uint8Array); //Byte Array json da base64 string olması lazım.
+                            typeMap.Add(CachedTypes.ByteArray, JavascriptType.@string); //Byte Array json da base64 string olması lazım.
                             typeMap.Add(CachedTypes.Nullable_Byte, JavascriptType.number);
                             typeMap.Add(CachedTypes.Nullable_SByte, JavascriptType.number);
                             typeMap.Add(CachedTypes.Nullable_Int16, JavascriptType.number);

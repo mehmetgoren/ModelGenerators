@@ -9,10 +9,17 @@
     {
         public static void Main(string[] args)
         {
+            args = new[]
+            {
+                @"X:\Projects\Templates\v2\Backend\Server.Models\bin\Debug\netstandard2.0\Server.Models.dll",
+                @"C:\Users\Administrator\Desktop\entities.ts"
+            };
+
             if (null != args && args.Length > 1)
             {
                 //const string sourcePath = @"X:\MiaTek\Projects\BioID\BioID.Server\0BioID.Models\bin\Debug\Northwind.Models.dll";
                 //const string destPath = @"X:\MiaTek\Projects\BioID\BioID.Client\src\BioID.Client\app\models\entities.ts";
+
 
                 string sourcePath = args[0];// @"X:\ionix.Demo\Northwind\Northwind.Models\bin\Debug\Northwind.Models.dll";
                 string destPath = args[1];// @"X:\ionix.Demo\Northwind\Northwind.Client\app\models\entities.ts";
